@@ -11,7 +11,7 @@ public class JComboBox8 implements ItemListener,ActionListener{
   	JLabel label=null;
   	
   	public JComboBox8(){
-  	  JFrame f=new JFrame("JComboBox");	
+  	  JFrame f = new JFrame("JComboBox");
   	  Container contentPane=f.getContentPane();
   	  contentPane.setLayout(new GridLayout(2,1));
   	  label=new JLabel("Swing",JLabel.CENTER);
