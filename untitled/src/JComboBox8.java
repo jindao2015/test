@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import java.math.*;
 
 public class JComboBox8 implements ItemListener,ActionListener{
   	String[] fontsize={"12","14","16","18","20","22","24","26","28"};
@@ -37,8 +36,8 @@ public class JComboBox8 implements ItemListener,ActionListener{
       });   
   	}
    public static void main(String[] args){
-   	 new JComboBox8();
-   }
+		new JComboBox8();
+	}
    public void actionPerformed(ActionEvent e){
    	  boolean isaddItem=true;
    	  int fontsize=0;
